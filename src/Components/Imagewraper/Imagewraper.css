@@ -1,0 +1,26 @@
+#Imagewraperdiv{
+    width: 40%;
+    height: 100%;
+    
+}
+
+#Imagewraperdiv >img{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 375px) {
+    #Imagewraperdiv{
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    #Imagewraperdiv >img{
+        width: 100%;
+        height: 30%;
+        content: url('../../assets/hero-mobile.jpg');
+    }
+}
