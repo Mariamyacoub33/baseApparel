@@ -108,6 +108,7 @@ p{
     align-items: center;
     justify-content: center;
     padding-left: 30px;
+    row-gap: 30px;
     }
 
     #Infowraperdiv > img{
@@ -127,13 +128,14 @@ p{
     }
     h1{
    
-        padding-top: 100px;
+        padding-top: 200px;
     }
 
   
 
 p{
-    font-size: 22px;
+    font-size: 18px;
+    text-align: start;
     
 }
   }
