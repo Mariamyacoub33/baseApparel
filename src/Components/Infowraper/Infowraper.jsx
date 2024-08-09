@@ -1,12 +1,12 @@
 import './Infowraper.css';
-import Logo from '../Logo/Logo' ;
+import logoim from '../../assets/logo.svg' ;
 
 
 function Infowraper (){
     return(
     
         <div id='Infowraperdiv'>
-        <Logo></Logo>
+        <img src={logoim}/>
 <div id='Bottomdiv'>
 <h1> WE'RE </h1>
 <h2>COMING SOON</h2>
