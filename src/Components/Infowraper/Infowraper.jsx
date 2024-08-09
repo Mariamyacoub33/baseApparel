@@ -1,5 +1,5 @@
-import './Infowraper.css'
-import Logo from '../Logo/Logo' 
+import './Infowraper.css';
+import Logo from '../Logo/Logo' ;
 
 
 function Infowraper (){
