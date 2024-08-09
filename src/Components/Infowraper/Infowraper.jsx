@@ -5,7 +5,7 @@ import logo from '../../assets/logo.svg'
 function Infowraper (){
     return(
         <div id='Infowraperdiv'>
-<img id='logoimg' src='logo'/>
+<img id='logoimg' src={logo}/>
 <div id='Bottomdiv'>
 <h1> WE'RE </h1>
 <h2>COMING SOON</h2>

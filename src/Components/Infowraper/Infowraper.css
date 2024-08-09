@@ -1,14 +1,3 @@
-@font-face {
-    font-family:'JosefinSans' ;
-    src: url(fonts/JosefinSans-Bold.ttf);
-    font-weight: bold;
-}
-
-@font-face {
-    font-family:'JosefinSans' ;
-    src: url(fonts/JosefinSans-Regular.ttf);
-    font-weight: normal;
-}
 
 #Infowraperdiv{
     width: 60%;
@@ -38,13 +27,11 @@
     padding: 5px;
     display: flex;
     flex-direction: column;
-    
-
 }
 
 h1{
-    font-family: 'JosefinSans';
-    font-weight: bold;
+    font-family: "JosefinSans";
+    font-weight: lighter;
     font-size: 40px;
     color:hsl(0, 30%, 76%)    ;
     letter-spacing: 10px;
@@ -53,7 +40,7 @@ h1{
 
 h2{
     font-family: 'JosefinSans';
-    font-weight: bold;
+    font-weight: light;
     font-size: 40px;
     color: hsl(0, 6%, 24%)   ;
     letter-spacing: 10px;
@@ -63,7 +50,7 @@ h2{
 p{
     font-family: 'JosefinSans';
     font-weight: normal;
-    font-size: 16px;
+    font-size: 12px;
     color:hsl(0, 30%, 76%)    ;
 }
 
@@ -91,8 +78,9 @@ p{
     background-image: linear-gradient(to right, hsl(0, 79%, 95%), hsl(0, 75%, 78%));
     border-radius: 25px;
     cursor: pointer;
-    /* position: relative;
-    z-index: 3; */
+     position: relative;
+     right: 50px;
+    /* z-index: 3; */
   }
   
   .email-input-container .arrow-right::after {
@@ -111,7 +99,7 @@ p{
     /* يمكنك تعديل أسلوب رسالة الخطأ هنا */
   }
 
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 450px) {
     #logoimg{
         position: absolute;
         top: 30px;
@@ -123,18 +111,17 @@ p{
     height: 70%;
     align-items: center;
     justify-content: center;
-    padding-left: 0px;
-    text-align: center;
+    padding-left: 30px;
 
     }
     #Bottomdiv{
         width: 100%;
-        row-gap: 40px;
+        row-gap: 20px;
         text-align: center;
         align-items: center;
         justify-content: center;
         box-sizing: border-box;
-        padding-left: 50px;
+        /* padding-left: 50px; */
     }
     h1{
         font-size: 50px;
@@ -146,7 +133,9 @@ p{
     }
 
 p{
-    font-size: 14px;
+    width: 80%;
+    height: 70px;
+    font-size: 16px;
     
 }
   }
